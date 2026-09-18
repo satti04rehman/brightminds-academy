@@ -92,7 +92,7 @@
         "Contact number: " + fd.get("phone"),
         "Message: " + (fd.get("notes") || "—")
       ].join("\n");
-      window.open("https://wa.me/923165661622?text=" + encodeURIComponent(msg), "_blank", "noopener");
+      window.open("mailto:hello@brightminds.pk?subject=Enquiry &body=" + encodeURIComponent(msg), "_blank");
     });
   }
 })();
